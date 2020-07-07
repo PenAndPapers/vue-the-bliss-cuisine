@@ -75,7 +75,6 @@ export default {
       }, this.interval)
     },
     animateSlider (index = null) {
-      console.log(index)
       this.$el.children[this.activeSlideIndex].classList.remove('opacity-1')
       this.$el.children[this.activeSlideIndex].classList.add('opacity-0')
 
