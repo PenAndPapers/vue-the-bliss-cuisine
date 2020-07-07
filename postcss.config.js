@@ -12,6 +12,7 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
   ],
 
   whitelist: ['body'],
+  whitelistPatterns: [/^fade/, /appear/],
 
   // Include any special characters you're using in this regular expression
   defaultExtractor: content => content.match(/[a-zA-Z0-9-_:!%/]+/g) || []

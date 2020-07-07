@@ -1,0 +1,48 @@
+{
+  "data": {
+    "details": [
+      {
+        "name": "Occaecat in nulla excepteur",
+        "description": "<p>Ullamco ad nisi dolore incididunt elit elit anim. In quis anim consequat aute velit magna excepteur eiusmod enim minim excepteur ex. Minim eu nulla sunt incididunt et id ad ea sit in mollit Lorem ullamco nulla.</p><p>Cupidatat sit aliqua anim elit Lorem consequat quis anim labore nulla consectetur aute. Deserunt sunt eiusmod eiusmod deserunt cillum amet cupidatat Lorem aliquip est mollit irure. Enim elit eiusmod consequat amet duis veniam ut Lorem. Lorem aliquip laboris do amet deserunt qui qui officia consequat anim veniam.</p>",
+        "role": "Established 1981",
+        "image_url": [
+          "gallery_15.jpeg",
+          "gallery_4.jpeg",
+          "gallery_6.jpeg",
+          "gallery_9.jpeg",
+          "gallery_23.jpeg"
+        ]
+      },
+      {
+        "name": "Duis Exercitation",
+        "description": "<p>Elit do consequat ex quis ullamco ad nisi dolore incididunt elit elit anim. In quis anim consequat aute velit magna excepteur eiusmod enim minim excepteur ex.</p><p>Cupidatat sit aliqua anim elit Lorem consequat quis anim labore nulla consectetur aute. Deserunt sunt eiusmod eiusmod deserunt cillum amet cupidatat Lorem aliquip est mollit irure. Enim elit eiusmod consequat amet duis veniam ut Lorem. Lorem aliquip laboris do amet deserunt qui qui officia consequat anim veniam.</p>",
+        "role": "Magna excepteur",
+        "image_url": ["about_1.jpeg"]
+      },
+      {
+        "name": "Exercitation Laboris",
+        "description": "<p>In quis anim consequat aute velit magna excepteur eiusmod enim minim excepteur ex. Qui nostrud cupidatat laborum esse labore occaecat in nulla excepteur exercitation non. Et mollit consectetur cupidatat do officia mollit commodo. Excepteur dolor velit aliqua ex aliquip eu cupidatat aute ad.</p><p>Enim elit eiusmod consequat amet duis veniam ut Lorem. Lorem aliquip laboris do amet deserunt qui qui officia consequat anim veniam. Occaecat incididunt veniam tempor cupidatat nostrud irure adipisicing proident aliqua.</p>",
+        "role": "Qui nostrud",
+        "image_url": ["about_2.jpeg"]
+      },
+      {
+        "name": "Cupidatat Reprehenderit",
+        "description": "<p>Qui nostrud cupidatat laborum esse labore occaecat in nulla excepteur exercitation non. Et mollit consectetur cupidatat do officia mollit commodo. Excepteur dolor velit aliqua ex aliquip eu cupidatat aute ad.</p><p>Lorem aliquip est mollit irure. Enim elit eiusmod consequat amet duis veniam ut Lorem. Lorem aliquip laboris do amet deserunt qui qui officia consequat anim veniam. Occaecat incididunt veniam tempor cupidatat nostrud irure adipisicing proident aliqua. In commodo laboris ea quis est occaecat do sint anim ad veniam minim.</p>",
+        "role": "Nulla excepteur",
+        "image_url": ["about_3.jpeg"]
+      },
+      {
+        "name": "Lorem ullamco nulla",
+        "description": "<p>Sunt occaecat eiusmod irure voluptate pariatur ex aute. Tempor laboris eu tempor aute. Minim eu nulla sunt incididunt et id ad ea sit in mollit Lorem ullamco nulla. Et aliqua ullamco dolor Lorem do elit laboris voluptate do non esse nostrud esse reprehenderit. Irure pariatur pariatur amet esse consectetur.</p><p>Incididunt laborum labore enim minim velit ex do do labore aute qui velit. Esse id laborum laboris commodo Lorem ut id nostrud laboris deserunt enim ea aliqua ex. Enim dolore deserunt ex consequat anim magna exercitation dolore sint minim eiusmod ea ea. Labore ad id id duis.</p>",
+        "role": "Irure pariatur",
+        "image_url": [
+          "about_5.jpeg",
+          "pizza.jpeg",
+          "soup.jpeg",
+          "steak.jpeg",
+          "beverage.jpeg"
+        ]
+      }
+    ]
+  }
+}

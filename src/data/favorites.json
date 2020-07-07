@@ -1,0 +1,154 @@
+{
+  "data" : [
+    {
+      "name": "Our Best Seller",
+      "items": [
+        {
+          "title": "Cupidatat voluptate cupidatat",
+          "description": "Enim anim officia officia incididunt nisi excepteur eu nulla ut aliqua aliquip minim. Sunt consequat dolor est proident voluptate eiusmod cillum et mollit non ea nostrud nulla consequat. Pariatur anim dolore amet eiusmod. Occaecat minim tempor tempor dolore nisi sunt dolor id enim do. Adipisicing dolor occaecat incididunt elit eiusmod pariatur culpa eiusmod eu. Consectetur est non aliqua est ut ullamco pariatur commodo.",
+          "image_url": "best_seller_1.jpeg",
+          "images": [
+            "best_seller_1.jpeg",
+            "must_try_1.jpeg",
+            "best_seller_4.jpeg",
+            "burger.jpeg",
+            "best_seller_2.jpeg",
+            "best_seller_4.jpeg",
+            "dessert.jpeg"
+          ]
+        },
+        {
+          "title": "Qui aute laboris esse",
+          "description": "Sit ullamco incididunt nulla elit. In anim aliquip aliquip eu sint velit. Proident ea cillum adipisicing non ut. Minim consectetur proident duis irure amet commodo id.",
+          "image_url": "best_seller_2.jpeg",
+          "images": [
+            "best_seller_2.jpeg",
+            "must_try_2.jpeg",
+            "best_seller_3.jpeg",
+            "burger.jpeg",
+            "best_seller_4.jpeg",
+            "must_try_3.jpeg",
+            "salad.jpeg"
+          ]
+        },
+        {
+          "title": "Occaecat irure adipisicing ut",
+          "description": "Voluptate nisi eiusmod velit id qui ex adipisicing consequat culpa est exercitation exercitation. Eiusmod Lorem aute nisi minim ad enim. Enim officia do reprehenderit elit magna.",
+          "image_url": "best_seller_3.jpeg",
+          "images": [
+            "best_seller_3.jpeg",
+            "salad.jpeg",
+            "pasta.jpeg",
+            "best_seller_4.jpeg",
+            "must_try_4.jpeg",
+            "best_seller_3.jpeg",
+            "dessert.jpeg"
+          ]
+        },
+        {
+          "title": "Nostrud exercitation pariatur nisi proident qui",
+          "description": "Pariatur cillum aliqua sunt magna. Aliquip id ea nostrud commodo pariatur elit nostrud tempor eu culpa. Nostrud officia culpa minim incididunt commodo velit reprehenderit. Mollit magna do cupidatat reprehenderit eiusmod magna. In enim et incididunt ut. Irure duis aliquip mollit velit mollit est reprehenderit qui ea nostrud ut. Non nisi elit minim anim ex deserunt quis duis non non aute labore consequat duis.",
+          "image_url": "best_seller_4.jpeg",
+          "images": [
+            "best_seller_4.jpeg",
+            "pizza.jpeg",
+            "best_seller_3.jpeg",
+            "soup.jpeg",
+            "steak.jpeg",
+            "salad.jpeg",
+            "best_seller_1.jpeg"
+          ]
+        },
+        {
+          "title": "Ipsum quis eu excepteur ut nulla laboris fugiat",
+          "description": "Pariatur cillum aliqua sunt magna. Aliquip id ea nostrud commodo pariatur elit nostrud tempor eu culpa. Nostrud officia culpa minim incididunt commodo velit reprehenderit. Mollit magna do cupidatat reprehenderit eiusmod magna. In enim et incididunt ut. Irure duis aliquip mollit velit mollit est reprehenderit qui ea nostrud ut. Non nisi elit minim anim ex deserunt quis duis non non aute labore consequat duis.",
+          "image_url": "best_seller_5.jpeg",
+          "images": [
+            "best_seller_4.jpeg",
+            "pizza.jpeg",
+            "best_seller_3.jpeg",
+            "soup.jpeg",
+            "steak.jpeg",
+            "salad.jpeg",
+            "best_seller_1.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Must Try",
+      "items": [
+        {
+          "title": "Duis mollit enim occaecat",
+          "description": "Et qui do mollit sint incididunt duis do ipsum nisi sunt eu. Labore laborum est ipsum est sunt esse minim ad reprehenderit eiusmod consectetur ad irure. Reprehenderit esse minim ea sit do adipisicing deserunt ipsum. Officia eiusmod veniam laboris sunt aliqua ullamco. Dolore mollit pariatur duis sint officia ea duis sint. Sit sint quis incididunt cillum proident.",
+          "image_url": "must_try_1.jpeg",
+          "images": [
+            "must_try_1.jpeg",
+            "pasta.jpeg",
+            "best_seller_1.jpeg",
+            "pizza.jpeg",
+            "steak.jpeg",
+            "best_seller_4.jpeg",
+            "best_seller_1.jpeg"
+          ]
+        },
+        {
+          "title": "Nisi do eiusmod laborum dolor",
+          "description": "Ullamco sit tempor voluptate anim consectetur aliqua esse exercitation commodo. Commodo cillum qui magna commodo. Ullamco aliqua occaecat ex magna irure duis amet pariatur nisi laboris nostrud amet. Mollit cillum excepteur anim officia dolore ut do adipisicing. Ad anim sit fugiat nulla. Aliqua cillum minim exercitation deserunt commodo eu. Ipsum ex elit anim consectetur sint eu nostrud culpa mollit.",
+          "image_url": "must_try_2.jpeg",
+          "images": [
+            "must_try_2.jpeg",
+            "must_try_3.jpeg",
+            "best_seller_3.jpeg",
+            "soup.jpeg",
+            "must_try_3.jpeg",
+            "salad.jpeg",
+            "best_seller_1.jpeg"
+          ]
+        },
+        {
+          "title": "Ullamco reprehenderit",
+          "description": "Consequat quis enim sit nisi et qui velit consectetur quis laborum incididunt aliquip dolor ullamco. Consequat pariatur eu Lorem voluptate id id. Aliquip eu occaecat amet eiusmod irure eu non non mollit.",
+          "image_url": "must_try_3.jpeg",
+          "images": [
+            "must_try_3.jpeg",
+            "dessert.jpeg",
+            "best_seller_3.jpeg",
+            "best_seller_4.jpeg",
+            "steak.jpeg",
+            "salad.jpeg",
+            "best_seller_1.jpeg"
+          ]
+        },
+        {
+          "title": "Amet occaecat nostrud consequat",
+          "description": "Mollit magna do cupidatat reprehenderit eiusmod magna. In enim et incididunt ut. Irure duis aliquip mollit velit mollit est reprehenderit qui ea nostrud ut. Non nisi elit minim anim ex deserunt quis duis non non aute labore consequat duis.",
+          "image_url": "must_try_4.jpeg",
+          "images": [
+            "must_try_4.jpeg",
+            "pasta.jpeg",
+            "best_seller_3.jpeg",
+            "beverage.jpeg",
+            "steak.jpeg",
+            "soup.jpeg",
+            "pizza.jpeg"
+          ]
+        },
+        {
+          "title": "Mollit magna mollit aliqua occaecat",
+          "description": "Et qui do mollit sint incididunt duis do ipsum nisi sunt eu. Labore laborum est ipsum est sunt esse minim ad reprehenderit eiusmod consectetur ad irure. Reprehenderit esse minim ea sit do adipisicing deserunt ipsum. Officia eiusmod veniam laboris sunt aliqua ullamco. Dolore mollit pariatur duis sint officia ea duis sint. Sit sint quis incididunt cillum proident.",
+          "image_url": "must_try_5.jpeg",
+          "images": [
+            "must_try_1.jpeg",
+            "pasta.jpeg",
+            "best_seller_1.jpeg",
+            "pizza.jpeg",
+            "steak.jpeg",
+            "best_seller_4.jpeg",
+            "best_seller_1.jpeg"
+          ]
+        }
+      ]
+    }
+  ]
+}

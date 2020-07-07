@@ -1,33 +1,50 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <main>
-      <router-view/>
+  <div
+    id="app"
+    class="overflow-x-hidden bg-appbg"
+  >
+    <VtNavigationModule />
+    <main class="min-h-screen">
+      <transition
+        appear
+        name="fade"
+        mode="out-in"
+      >
+        <router-view/>
+      </transition>
     </main>
+    <VtReservation />
+    <VtFooterModule />
+    <VtModal class="fixed z-30 top-0 bottom-0 left-0 right-0" />
   </div>
 </template>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+import VtNavigationModule from '@module/VtNavigationModule'
+import VtReservation from '@layout/VtReservation'
+import VtFooterModule from '@module/VtFooterModule'
+import VtModal from '@common/VtModal'
+export default {
+  name: 'App',
+  components: {
+    VtNavigationModule,
+    VtReservation,
+    VtFooterModule,
+    VtModal
+  },
+  data () {
+    return {
+      routeName: ''
+    }
+  },
+  watch: {
+    '$route': {
+      handler (newVal, oldVal) {
+        this.routeName = newVal.name
+      },
+      immediate: true,
+      deep: true
+    }
+  }
 }
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+</script>

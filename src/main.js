@@ -5,6 +5,9 @@ import store from './store'
 import './registerServiceWorker'
 import './tailwind/style.css'
 
+import '@directives/InViewport'
+import '@directives/LoadImageIfComplete'
+
 import elements from '@elements'
 
 Vue.config.productionTip = false

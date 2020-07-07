@@ -7,13 +7,16 @@ module.exports = {
       sm: '640px',
       md: '768px',
       lg: '1024px',
-      xl: '1280px'
+      xl: '1280px',
+      xxl: '1366px',
+      '3xl': '1600px'
     },
     colors: {
       transparent: 'transparent',
 
       black: '#000',
       white: '#fff',
+      appbg: '#000325',
 
       gray: {
         100: '#f7fafc',
@@ -24,7 +27,8 @@ module.exports = {
         600: '#718096',
         700: '#4a5568',
         800: '#2d3748',
-        900: '#1a202c'
+        900: '#1a202c',
+        1000: '#888888'
       },
       red: {
         100: '#fff5f5',
@@ -68,7 +72,8 @@ module.exports = {
         600: '#38a169',
         700: '#2f855a',
         800: '#276749',
-        900: '#22543d'
+        900: '#22543d',
+        1000: '#02594d'
       },
       teal: {
         100: '#e6fffa',
@@ -79,7 +84,8 @@ module.exports = {
         600: '#319795',
         700: '#2c7a7b',
         800: '#285e61',
-        900: '#234e52'
+        900: '#234e52',
+        1000: '#012624'
       },
       blue: {
         100: '#ebf8ff',
@@ -145,7 +151,15 @@ module.exports = {
       '40': '10rem',
       '48': '12rem',
       '56': '14rem',
-      '64': '16rem'
+      '64': '16rem',
+      '72': '18rem',
+      '80': '20rem',
+      '84': '24rem',
+      '88': '28rem',
+      '96': '36rem',
+      '100': '44rem',
+      '108': '52rem',
+      '116': '60rem'
     },
     backgroundColor: theme => theme('colors'),
     backgroundPosition: {
@@ -162,7 +176,8 @@ module.exports = {
     backgroundSize: {
       auto: 'auto',
       cover: 'cover',
-      contain: 'contain'
+      contain: 'contain',
+      '120%': '120%'
     },
     borderColor: theme => ({
       ...theme('colors'),
@@ -177,8 +192,8 @@ module.exports = {
       full: '9999px'
     },
     borderWidth: {
-      default: '1px',
       '0': '0',
+      '1': '1px',
       '2': '2px',
       '4': '4px',
       '8': '8px'
@@ -223,6 +238,8 @@ module.exports = {
       default: '1'
     },
     fontFamily: {
+      'montserrat': ['"Montserrat"'],
+      'abrilfatface': ['Abril Fatface'],
       sans: [
         'system-ui',
         '-apple-system',
@@ -241,18 +258,9 @@ module.exports = {
       serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace']
     },
-    fontSize: {
-      xs: '0.75rem',
-      sm: '0.875rem',
-      base: '1rem',
-      lg: '1.125rem',
-      xl: '1.25rem',
-      '2xl': '1.5rem',
-      '3xl': '1.875rem',
-      '4xl': '2.25rem',
-      '5xl': '3rem',
-      '6xl': '4rem'
-    },
+    fontSize: theme => ({
+      ...theme('spacing')
+    }),
     fontWeight: {
       hairline: '100',
       thin: '200',
@@ -268,12 +276,14 @@ module.exports = {
       auto: 'auto',
       ...theme('spacing'),
       full: '100%',
-      screen: '100vh'
+      screen: '100vh',
+      modal: '85vh'
     }),
-    inset: {
+    inset: theme => ({
       '0': '0',
-      auto: 'auto'
-    },
+      auto: 'auto',
+      ...theme('spacing')
+    }),
     letterSpacing: {
       tighter: '-0.05em',
       tight: '-0.025em',
@@ -283,6 +293,7 @@ module.exports = {
       widest: '0.1em'
     },
     lineHeight: {
+      '0': '0',
       none: '1',
       tight: '1.25',
       snug: '1.375',
@@ -308,10 +319,12 @@ module.exports = {
       ...theme('spacing'),
       ...negative(theme('spacing'))
     }),
-    maxHeight: {
+    maxHeight: theme => ({
+      auto: 'auto',
+      ...theme('spacing'),
       full: '100%',
       screen: '100vh'
-    },
+    }),
     maxWidth: (theme, { breakpoints }) => ({
       none: 'none',
       xs: '20rem',
@@ -385,6 +398,7 @@ module.exports = {
     width: theme => ({
       auto: 'auto',
       ...theme('spacing'),
+      ...theme('screens'),
       '1/2': '50%',
       '1/3': '33.333333%',
       '2/3': '66.666667%',
@@ -415,6 +429,9 @@ module.exports = {
       screen: '100vw'
     }),
     zIndex: {
+      '-1': '-1',
+      '-2': '-2',
+      '-3': '-3',
       auto: 'auto',
       '0': '0',
       '10': '10',
@@ -596,7 +613,10 @@ module.exports = {
       '300': '300ms',
       '500': '500ms',
       '700': '700ms',
-      '1000': '1000ms'
+      '1000': '1000ms',
+      '1500': '1500ms',
+      '2000': '2000ms',
+      '2500': '2500ms'
     }
   },
   variants: {
@@ -609,16 +629,16 @@ module.exports = {
     backgroundColor: ['responsive', 'hover', 'focus'],
     backgroundPosition: ['responsive'],
     backgroundRepeat: ['responsive'],
-    backgroundSize: ['responsive'],
+    backgroundSize: ['responsive', 'hover'],
     borderCollapse: ['responsive'],
-    borderColor: ['responsive', 'hover', 'focus'],
+    borderColor: ['responsive', 'hover', 'focus', 'first', 'last'],
     borderRadius: ['responsive'],
     borderStyle: ['responsive'],
-    borderWidth: ['responsive'],
+    borderWidth: ['responsive', 'hover', 'focus', 'first', 'last'],
     boxShadow: ['responsive', 'hover', 'focus'],
     boxSizing: ['responsive'],
     cursor: ['responsive'],
-    display: ['responsive'],
+    display: ['responsive', 'last'],
     fill: ['responsive'],
     flex: ['responsive'],
     flexDirection: ['responsive'],
@@ -639,7 +659,7 @@ module.exports = {
     lineHeight: ['responsive'],
     listStylePosition: ['responsive'],
     listStyleType: ['responsive'],
-    margin: ['responsive'],
+    margin: ['responsive', 'last'],
     maxHeight: ['responsive'],
     maxWidth: ['responsive'],
     minHeight: ['responsive'],
@@ -650,7 +670,7 @@ module.exports = {
     order: ['responsive'],
     outline: ['responsive', 'focus'],
     overflow: ['responsive'],
-    padding: ['responsive'],
+    padding: ['responsive', 'first', 'last'],
     placeholderColor: ['responsive', 'focus'],
     pointerEvents: ['responsive'],
     position: ['responsive'],
@@ -685,9 +705,9 @@ module.exports = {
     rotate: ['responsive', 'hover', 'focus'],
     translate: ['responsive', 'hover', 'focus'],
     skew: ['responsive', 'hover', 'focus'],
-    transitionProperty: ['responsive'],
-    transitionTimingFunction: ['responsive'],
-    transitionDuration: ['responsive']
+    transitionProperty: ['responsive', 'hover'],
+    transitionTimingFunction: ['responsive', 'hover'],
+    transitionDuration: ['responsive', 'hover']
   },
   corePlugins: {},
   plugins: []

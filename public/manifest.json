@@ -1,6 +1,6 @@
 {
-  "name": "vue-app",
-  "short_name": "vue-app",
+  "name": "the-bliss-cuisine",
+  "short_name": "the-bliss-cuisine",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",

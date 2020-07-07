@@ -1,0 +1,45 @@
+{
+  "data": {
+    "site_name": "The Food Factory",
+    "email": "thefoodfactory@mail.com",
+    "phone": "+56 25 9723 0345",
+    "location": [
+      "587 Foster Street Gloucester, MA 01930"
+    ],
+    "opening_hours": [
+      "Mon - Thu: 8:30AM - 7:30PM",
+      "Fri - Sun: 9AM - 10:30PM"
+    ],
+    "social_media": [
+      {
+        "name": "Facebook",
+        "url": "//facebook.com",
+        "icon": "fa-facebook-f"
+      },
+      {
+        "name": "Twitter",
+        "url": "//twitter.com",
+        "icon": "fa-twitter"
+      },
+      {
+        "name": "Instagram",
+        "url": "//instagram.com",
+        "icon": "fa-instagram"
+      },
+      {
+        "name": "Youtube",
+        "url": "//youtube.com",
+        "icon": "fa-youtube"
+      }
+    ],
+    "slider_images": [
+      "bg_header_1.jpeg",
+      "bg_header_3.jpeg",
+      "bg_header_4.jpeg",
+      "bg_header_5.jpeg",
+      "bg_header_6.jpeg",
+      "bg_header_7.jpeg"
+    ],
+    "reservation_form_action": "https://jsonplaceholder.typicode.com/posts"
+  }
+}

@@ -1,8 +1,65 @@
-html, body {
-  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
+*,html, body {
+  font-family: "Montserrat", 'Abril Fatface', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0px;
   margin: 0px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+input, select, textarea, button,
+input:focus, select:focus, textarea:focus, button:focus,
+input:active, select:active, textarea:active, button:active {
+  outline: none;
+}
+
+.text-shadow-black {
+  text-shadow: 5px 5px 10px #000;
+}
+
+.masonry {
+  transition: all .5s ease-in-out;
+  column-gap: 1.25rem;
+  column-fill: initial;
+}
+.masonry.column-2 {
+  column-count: 2;
+}
+.masonry.column-3 {
+  column-count: 3;
+}
+.masonry.column-4 {
+  column-count: 4;
+}
+.masonry-card {
+  margin-bottom: 1.25rem;
+  display: inline-block;
+  vertical-align: top;
+}
+.masonry-card img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.wysiwyg p {
+  margin-bottom: 1rem;
+}
+
+/** 
+ * ANIMATIONS 
+ */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.50s ease-out;
+}
+.appear, .fade-enter, .fade-leave-to {
+  opacity: 0;
 }
