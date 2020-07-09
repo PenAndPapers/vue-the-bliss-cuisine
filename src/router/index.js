@@ -42,7 +42,7 @@ const routes = new Router({
 })
 
 routes.beforeEach((to, from, next) => {
-  let visitedRoutes = JSON.parse(window.localStorage.getItem('visitedRoutes')) || []
+  const visitedRoutes = JSON.parse(window.localStorage.getItem('visitedRoutes')) || []
   if (!visitedRoutes.includes(to.name)) {
     visitedRoutes.push(to.name)
     window.localStorage.setItem('visitedRoutes', JSON.stringify(visitedRoutes))

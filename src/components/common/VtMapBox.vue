@@ -10,7 +10,7 @@ export default {
   name: 'VtMapBOx',
   methods: {
     loadMapBoxScript () {
-      let script = document.createElement('script')
+      const script = document.createElement('script')
       script.type = 'text/javascript'
       script.src = 'https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'
       document.head.appendChild(script)

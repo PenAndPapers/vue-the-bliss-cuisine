@@ -8,6 +8,6 @@ storiesOf('Common', module)
   .addDecorator(withKnobs)
   .add('VtCard', () => ({
     components: { VtCard },
-    template: `<VtCard />`,
+    template: '<VtCard />',
     methods: { action: action('clicked') }
   }))

@@ -38,7 +38,7 @@ export default {
     }
   },
   watch: {
-    '$route': {
+    $route: {
       handler (newVal, oldVal) {
         this.routeName = newVal.name
       },

@@ -8,6 +8,6 @@ storiesOf('Layout', module)
   .addDecorator(withKnobs)
   .add('VtHeader', () => ({
     components: { VtHeader },
-    template: `<VtHeader />`,
+    template: '<VtHeader />',
     methods: { action: action('clicked') }
   }))

@@ -8,6 +8,6 @@ storiesOf('Module', module)
   .addDecorator(withKnobs)
   .add('VtModule', () => ({
     components: { VtModule },
-    template: `<VtModule />`,
+    template: '<VtModule />',
     methods: { action: action('clicked') }
   }))

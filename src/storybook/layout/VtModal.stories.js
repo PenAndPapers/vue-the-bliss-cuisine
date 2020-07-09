@@ -8,6 +8,6 @@ storiesOf('Layout', module)
   .addDecorator(withKnobs)
   .add('VtModal', () => ({
     components: { VtModal },
-    template: `<VtModal />`,
+    template: '<VtModal />',
     methods: { action: action('clicked') }
   }))

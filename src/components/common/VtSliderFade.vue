@@ -96,7 +96,7 @@ export default {
     }
   },
   mounted () {
-    let slides = Array.from(this.$el.children)
+    const slides = Array.from(this.$el.children)
     slides.pop()
     this.slides = slides
     this.translate3dBG()
